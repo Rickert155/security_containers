@@ -1,4 +1,10 @@
 # Security tool in Containers
+Этот репозиторий содержит **готовые Containerfile** для популярных инструментов тестирования безопасности, таких как **nmap** и **sqlmap**.  
+В директории каждого инструмента содержится готовый Containerfile и инструкция по использованию
+
 **Tools**
-- [sqlmap](https://github.com/Rickert155/security_containers/tree/main/sqlmap)</li>
-- [nmap](https://github.com/Rickert155/security_containers/tree/main/nmap)</li>
+- [sqlmap](https://github.com/Rickert155/security_containers/tree/main/sqlmap)
+- [nmap](https://github.com/Rickert155/security_containers/tree/main/nmap)
+
+## Disclaimer
+Репозиторий создан для изолированного использования инструментов для тестирования на проникновения. Разработчик данного репозитория **не несет ответственности** за использование данного инструментария вне рамок закона, **вся ответственность лежит на пользователях**, использующих данный инструментарий и его образы
