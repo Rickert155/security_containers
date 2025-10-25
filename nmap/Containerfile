@@ -1,0 +1,7 @@
+FROM ubuntu
+RUN apt update && apt install -y fish vim gcc make \
+        build-essential pkg-config \
+        libpcap-dev libpcre3-dev libssl-dev liblua5.2-dev zlib1g-dev 
+WORKDIR /root/nmap
+COPY nmap .
+RUN ./configure prefix=/usr --disable-dependency-tracking && make install
