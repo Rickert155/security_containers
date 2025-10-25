@@ -14,7 +14,7 @@ podman build -t nmap -f Containerfile
 ```
 ## Run container
 ```sh
-podman run -it --rm --name nmap nmap
+podman run -it --rm --name nmap --privileged nmap:7.98svn
 ```
 
 ## Clone package
