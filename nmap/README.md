@@ -13,3 +13,6 @@ podman build -t nmap -f Containerfile
 ```sh
 podman run -it --rm --name nmap nmap
 ```
+
+## Clone package
+Клонируй образ с нужной версией инструмента [package rickert155](https://github.com/users/Rickert155/packages/container/package/nmap)
