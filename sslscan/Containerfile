@@ -1,0 +1,6 @@
+FROM ubuntu
+RUN apt update && apt install -y git fish vim gcc make \
+	zlib1g-dev clang
+WORKDIR /root/sslscan
+COPY sslscan/ .
+RUN make static 
